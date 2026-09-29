@@ -1,7 +1,7 @@
 <h1 align="center">Harish Chauhan</h1>
 
 <p align="center">
-  <strong>BS Data Science @ IIT Madras · Full-Stack Developer · Building reliable, data-driven software</strong>
+  <strong>BS Data Science @ IIT Madras · Backend / Full-Stack Developer · Data & AI Enthusiast</strong>
 </p>
 
 <p align="center">
@@ -14,14 +14,16 @@
 
 ## About Me
 
-I'm a student at **IIT Madras** with a strong interest in software engineering, backend systems, and data-driven applications. I enjoy taking ideas from requirements to working products — designing databases, building APIs, implementing authentication and role-based workflows, integrating frontends, and adding background processing or caching where it improves the system.
+I'm a **BS Data Science student at IIT Madras** interested in backend engineering, full-stack development, data science, and applied AI.
 
-I care about writing practical software, understanding how the pieces fit together, and continuously improving both my engineering fundamentals and problem-solving skills.
+I enjoy turning ideas into working systems — from designing relational databases and REST APIs to building role-based applications, integrating frontends, adding caching/background jobs, and experimenting with retrieval and machine-learning pipelines.
 
-- 🎓 Pursuing a **BS in Data Science at IIT Madras**
-- 💻 Interested in **backend engineering, full-stack development, data science, and applied AI**
-- 🧠 Currently strengthening **DSA, machine learning, and scalable application design**
-- 🤝 Open to **hackathons, collaborative projects, and software/data internships**
+- 🎓 **BS Data Science @ IIT Madras**
+- 💻 Focused on **Python backend and full-stack development**
+- 🤖 Exploring **AI/ML, embeddings, information retrieval, and RAG**
+- 🧠 Strengthening **DSA, machine learning, and system design fundamentals**
+- 🚀 Building projects through **hackathons and independent development**
+- 🤝 Open to **software, Python/backend, data, and AI/ML internships**
 
 ## Tech Stack
 
@@ -34,7 +36,7 @@ I care about writing practical software, understanding how the pieces fit togeth
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
 </p>
 
-### Frameworks & Application Development
+### Backend & Frontend
 <p>
   <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
@@ -45,46 +47,79 @@ I care about writing practical software, understanding how the pieces fit togeth
   <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT" />
 </p>
 
-### Data, Storage & Background Processing
+### Data, AI & Infrastructure
 <p>
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
-  <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
-  <img src="https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white" alt="Celery" />
   <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas" />
   <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
   <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
+  <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
+  <img src="https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white" alt="Celery" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
 </p>
 
 ### Tools
 <p>
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
   <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" alt="Postman" />
 </p>
 
 ## Featured Projects
 
-### 🥾 [Trekking Management Application](https://github.com/harishgit0/Trekking-Management-Application)
-A full-stack, role-based trekking platform for **Admin, Staff, and Trekkers**. It includes JWT authentication, trek and booking workflows, staff assignment, Redis caching, Celery background jobs, automated email reminders, monthly reports, and asynchronous CSV exports.
+### 🤖 AI Research Assistant
+An end-to-end RAG learning project focused on understanding the retrieval pipeline rather than simply calling an LLM API.
 
-**Highlights:** end-to-end architecture · REST APIs · role-based access control · caching · background processing · frontend/backend integration
+Current work includes PDF ingestion, text cleaning, token-based chunking, local BGE embeddings, and tests. The planned system adds **vector search, BM25, hybrid retrieval, reranking, evidence selection, RAG generation, and evaluation**.
 
-### 🎓 [Placement Portal](https://github.com/harishgit0/placement-portal)
-A multi-role campus recruitment platform connecting **Admins, Companies, and Students**. The system supports company approval, placement drives, student applications, application-status workflows, eligibility-oriented processes, and structured relational data management.
+### 💰 Public Money MVP
+An AI/data-analysis prototype for prioritising government-funded projects for human review using explainable risk signals.
 
-**Highlights:** business workflow design · authentication · relational modelling · role-based dashboards · application lifecycle management
+The MVP combines **cost anomaly (45%)**, **contractor concentration (30%)**, and **text similarity (25%)**, with project-level explanations, risk bands, ranking, and additional anomaly-analysis outputs.
 
-### 🏥 [Hospital Management System](https://github.com/harishgit0/Hospital-management-system)
-A hospital workflow application for **Admins, Doctors, and Patients** with appointment scheduling, doctor availability and slots, patient records, medical history, treatments, and role-specific dashboards.
+### 🥾 Trekking Management Application
+A full-stack role-based trekking platform for **Admin, Staff, and Trekker** users.
 
-**Highlights:** appointment scheduling · database relationships · access-controlled workflows · medical record management · CRUD with business logic
+**Highlights:** Vue 3 · Flask REST API · JWT · SQLAlchemy · SQLite · Redis · Celery · Celery Beat · automated email workflows
 
-## What I Bring to a Team
+### 🎓 Placement Portal
+A campus recruitment platform connecting **Admins, Companies, and Students** with company approval, placement drives, applications, eligibility workflows, and status tracking.
 
-I work best on projects where the goal is to turn a real problem into a usable technical solution. I can contribute across **backend development, database design, API integration, debugging, system workflows, and project coordination**, while collaborating with frontend, data, and product-focused teammates.
+**Highlights:** Flask · Flask-Login · Jinja2 · Bootstrap · SQLAlchemy · SQLite
 
-I value clear ownership, realistic deadlines, consistent communication, and building the important parts of a solution before adding unnecessary complexity.
+### 🏥 Hospital Management System
+A role-based hospital workflow application for **Admins, Doctors, and Patients**, including appointment scheduling, doctor availability, treatment records, medical history, and dashboards.
+
+**Highlights:** Flask · Jinja2 · Bootstrap · SQLAlchemy · SQLite
+
+### 🛡️ AI Tourist Safety Risk Predictor
+A Smart Tourism MVP that combines live weather with time-of-day and modeled destination-risk signals to generate a dynamic safety score and suggest an alternative destination.
+
+**Live demo:** https://harishgit0.github.io/ai-tourist-safety-mvp/
+
+## Current Learning
+
+- Information retrieval and search systems
+- Embeddings and semantic similarity
+- BM25 and hybrid retrieval
+- RAG architecture
+- Reranking and retrieval evaluation
+- Machine learning fundamentals
+- Backend/API architecture
+- Data structures and algorithms
+
+## What I Bring to Projects
+
+I like working on projects where software engineering and data/AI meet. I can contribute to:
+
+- Backend APIs and application logic
+- Database design and SQL
+- Authentication and role-based workflows
+- Frontend/backend integration
+- Debugging and testing
+- Data processing and ML experimentation
+- Hackathon MVP development and technical documentation
 
 ---
 
