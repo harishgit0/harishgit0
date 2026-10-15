@@ -98,7 +98,7 @@ A Smart Tourism MVP that combines live weather with time-of-day and modeled dest
 
 **Live demo:** https://harishgit0.github.io/ai-tourist-safety-mvp/
 
-## Current Learning
+## Core AI/ML Knowledge
 
 - Information retrieval and search systems
 - Embeddings and semantic similarity
