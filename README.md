@@ -1,33 +1,35 @@
 <h1 align="center">Harish Chauhan</h1>
 
 <p align="center">
-  <strong>BS Data Science @ IIT Madras · Backend / Full-Stack Developer · Data & AI Enthusiast</strong>
+  <strong>BS Data Science @ IIT Madras · Python Backend / Full-Stack Developer · Applied AI/ML</strong>
 </p>
 
 <p align="center">
   <a href="https://github.com/harishgit0">GitHub</a>
   ·
   <a href="https://github.com/harishgit0?tab=repositories">Projects</a>
+  ·
+  <a href="https://www.linkedin.com/">LinkedIn</a>
 </p>
 
 ---
 
 ## About Me
 
-I'm a **BS Data Science student at IIT Madras** interested in backend engineering, full-stack development, data science, and applied AI.
+I'm a **BS Data Science student at IIT Madras** interested in building useful software at the intersection of backend engineering, data, and AI.
 
-I enjoy turning ideas into working systems — from designing relational databases and REST APIs to building role-based applications, integrating frontends, adding caching/background jobs, and experimenting with retrieval and machine-learning pipelines.
+I enjoy taking projects from idea to working MVP: designing APIs and databases, integrating frontend and backend systems, building data pipelines, and applying machine learning where it adds value. Recent work includes an explainable, time-aware tourist risk estimation system and a retrieval-focused AI research assistant.
 
 - 🎓 **BS Data Science @ IIT Madras**
-- 💻 Focused on **Python backend and full-stack development**
-- 🤖 Exploring **AI/ML, embeddings, information retrieval, and RAG**
-- 🧠 Strengthening **DSA, machine learning, and system design fundamentals**
-- 🚀 Building projects through **hackathons and independent development**
-- 🤝 Open to **software, Python/backend, data, and AI/ML internships**
+- 🐍 Focused on **Python, backend development, REST APIs, and SQL**
+- 🌐 Experience building full-stack applications with **Flask, Vue, and React**
+- 🤖 Working with **machine learning, embeddings, information retrieval, and RAG**
+- 🏁 Building and presenting practical solutions through **hackathons and independent projects**
+- 💼 Interested in **software engineering, Python/backend, data, and applied AI/ML internships**
 
 ## Tech Stack
 
-### Languages & Core
+### Languages & Web
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
@@ -53,9 +55,10 @@ I enjoy turning ideas into working systems — from designing relational databas
   <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
   <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
   <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/pgvector-336791?style=flat-square" alt="pgvector" />
   <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
   <img src="https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white" alt="Celery" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
 </p>
 
 ### Tools
@@ -68,61 +71,57 @@ I enjoy turning ideas into working systems — from designing relational databas
 
 ## Featured Projects
 
-### 🤖 AI Research Assistant
-An end-to-end RAG learning project focused on understanding the retrieval pipeline rather than simply calling an LLM API.
+### 🛡️ [SafeRoute AI — Tourist Safety Risk Predictor](https://github.com/harishgit0/AI-Tourist-Safety-Predictor)
+An explainable, time-aware risk estimation prototype built for travel and smart tourism. It combines place and time models, live weather, OpenStreetMap features, confidence estimates, and route comparison.
 
-Current work includes PDF ingestion, text cleaning, token-based chunking, local BGE embeddings, and tests. The planned system adds **vector search, BM25, hybrid retrieval, reranking, evidence selection, RAG generation, and evaluation**.
+**Highlights:** Python · Flask · Vue 3 · XGBoost · Open-Meteo · OpenStreetMap · routing APIs · caching  
+**Responsible-use note:** Models were trained on Chicago data; estimates elsewhere are less certain and are not a guarantee of personal safety.
 
-### 💰 Public Money MVP
-An AI/data-analysis prototype for prioritising government-funded projects for human review using explainable risk signals.
+### 🤖 [AI Research Assistant](https://github.com/harishgit0/ai-research-assistant)
+A retrieval-augmented research assistant project focused on understanding and testing the full retrieval pipeline for research PDFs.
 
-The MVP combines **cost anomaly (45%)**, **contractor concentration (30%)**, and **text similarity (25%)**, with project-level explanations, risk bands, ranking, and additional anomaly-analysis outputs.
+**Highlights:** FastAPI · PDF ingestion · token-based chunking · BGE embeddings · PostgreSQL · pgvector · semantic search · BM25/hybrid retrieval concepts · RAG evaluation
 
-### 🥾 Trekking Management Application
-A full-stack role-based trekking platform for **Admin, Staff, and Trekker** users.
+### 💰 [Public Money MVP](https://github.com/harishgit0/public-money-MVP)
+A data-analysis prototype that prioritises government-funded projects for human review using explainable risk signals.
 
-**Highlights:** Vue 3 · Flask REST API · JWT · SQLAlchemy · SQLite · Redis · Celery · Celery Beat · automated email workflows
+**Highlights:** Python · Flask · SQLite · cost anomaly analysis · contractor concentration · text similarity · risk ranking
+
+### 🥾 [Trekking Management Application](https://github.com/harishgit0/Trekking-Management-Application)
+A role-based trekking platform for Admin, Staff, and Trekker users, with booking workflows and background tasks.
+
+**Highlights:** Vue 3 · Flask REST API · JWT · SQLAlchemy · SQLite · Redis · Celery
 
 ### 🎓 Placement Portal
-A campus recruitment platform connecting **Admins, Companies, and Students** with company approval, placement drives, applications, eligibility workflows, and status tracking.
+A campus recruitment platform for Admins, Companies, and Students, covering company approval, placement drives, applications, eligibility workflows, and status tracking.
 
 **Highlights:** Flask · Flask-Login · Jinja2 · Bootstrap · SQLAlchemy · SQLite
 
 ### 🏥 Hospital Management System
-A role-based hospital workflow application for **Admins, Doctors, and Patients**, including appointment scheduling, doctor availability, treatment records, medical history, and dashboards.
+A role-based hospital workflow application for Admins, Doctors, and Patients, including appointment scheduling, doctor availability, and medical records.
 
 **Highlights:** Flask · Jinja2 · Bootstrap · SQLAlchemy · SQLite
 
-### 🛡️ AI Tourist Safety Risk Predictor
-A Smart Tourism MVP that combines live weather with time-of-day and modeled destination-risk signals to generate a dynamic safety score and suggest an alternative destination.
+## AI/ML & Engineering Focus
 
-**Live demo:** https://harishgit0.github.io/ai-tourist-safety-mvp/
+- Machine learning fundamentals and model evaluation
+- Embeddings, semantic similarity, and information retrieval
+- BM25, hybrid retrieval, RAG architecture, and reranking
+- Data preparation, feature engineering, and explainable model outputs
+- REST API design, database modelling, authentication, and caching
+- Testing, debugging, Git workflows, and maintainable project structure
 
-## Core AI/ML Knowledge
+## What I Bring to a Team
 
-- Information retrieval and search systems
-- Embeddings and semantic similarity
-- BM25 and hybrid retrieval
-- RAG architecture
-- Reranking and retrieval evaluation
-- Machine learning fundamentals
-- Backend/API architecture
-- Data structures and algorithms
-
-## What I Bring to Projects
-
-I like working on projects where software engineering and data/AI meet. I can contribute to:
-
-- Backend APIs and application logic
-- Database design and SQL
-- Authentication and role-based workflows
-- Frontend/backend integration
-- Debugging and testing
-- Data processing and ML experimentation
-- Hackathon MVP development and technical documentation
+- Building and integrating backend APIs with frontend applications
+- Designing relational schemas and writing SQL
+- Implementing authentication and role-based workflows
+- Connecting external APIs and handling failures gracefully
+- Turning data into useful features, model outputs, and explanations
+- Collaborating on hackathon MVPs, debugging, and technical documentation
 
 ---
 
 <p align="center">
-  <i>Learning continuously. Building deliberately. Improving with every project.</i>
+  <i>Building practical software, learning through implementation, and improving with every project.</i>
 </p>
